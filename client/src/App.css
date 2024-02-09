@@ -1,0 +1,54 @@
+.custom-tooltip:hover .highlight-on-hover {
+    background-color: #f0f0f0; /* Add a background color to the ListItem on hover */
+  }
+  .container {
+    display: flex; /* Use flexbox layout */
+    /* align-items: center; Align items vertically in center */
+  }
+  
+  input {
+    margin: 0 10px; /* Add some spacing between inputs */
+  }
+/* App.css */
+
+/* App.css */
+
+/* App.css */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sides-container {
+  display: flex;
+  width: 100%;
+}
+
+.left-side,
+.right-side {
+  flex: 1;
+}
+
+.right-side-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.left-side-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: calc(33.33% - 20px); /* Adjust width as needed */
+  margin: 10px;
+}
+/* Updated CSS */
+.app-container2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-wrapper {
+  margin-bottom: 20px; /* Adjust spacing between components */
+}
